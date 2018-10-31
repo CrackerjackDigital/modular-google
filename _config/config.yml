@@ -1,0 +1,16 @@
+---
+Name: modular-ga-config
+---
+Modular\Modules\GoogleAnalytics:
+  google_analytics_code: ''
+  enabled: true
+  permit_environments:
+    dev: true
+    test: true
+    live: true
+SiteConfig:
+  extensions:
+    - Modular\Extensions\Model\GoogleAnalyticsSiteConfig
+SiteTree:
+  extensions:
+    - Modular\Extensions\Model\GoogleAnalyticsSiteTree
