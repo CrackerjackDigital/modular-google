@@ -1,0 +1,33 @@
+{
+	"name": "crackerjackdigital/silverstripe-modular-google",
+	"type": "silverstripe-module",
+	"description": "Google functionality for modular",
+	"homepage": "http://github.com/crackerjackdigital",
+	"license": "BSD-3-Clause",
+	"keywords": [
+		"silverstripe"
+	],
+	"authors": [
+		{
+			"name": "Steve Wake",
+			"homepage": "https://github.com/wakes"
+		},
+		{
+			"name": "CrackerJack Digital",
+			"homepage": "http://www.crackerjack.net.nz/"
+		}
+	],
+	"require": {
+		"silverstripe/framework": ">=3.1",
+		"crackerjackdigital/silverstripe-modular": "*"
+	},
+	"extra": {
+		"installer-name": "modular-google"
+	},
+	"autoload": {
+		"files": [
+			"autoloader.php"
+		]
+	},
+	"minimum-stability": "dev"
+}
